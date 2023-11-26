@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body oncopy="return false">
+  
+  <div id="background">
+    
+    <span onclick="change()" class="material-symbols-outlined icon">
+palette
+</span>
+    
+   <input id="value" type="text" disabled value="0">
+   
+  <div class="container">
+    <div class="raw">
+      <button onclick="one()">1</button>
+      <button onclick="two()">2</button>
+      <button onclick="three()">3</button>
+      <button onclick="plus()">+</button>
+    </div>
+    <div class="raw">
+      <button onclick="four()">4</button>
+      <button onclick="five()">5</button>
+      <button onclick="six()">6</button>
+      <button onclick="minus()">–</button>
+    </div>
+    <div class="raw">
+      <button onclick="seven()">7</button>
+      <button onclick="eight()">8</button>
+      <button onclick="nine()">9</button>
+      <button onclick="multiply ()">×</button>
+    </div>    
+    <div class="raw">
+      <button onclick="doublezero()">00</button>
+      <button onclick="zero()">0</button>
+      <button onclick="point()">.</button>
+      <button onclick="divide ()">÷</button>
+    </div>    
+    <div>
+     
+      <button onclick="remove()" class="ac">AC</button>
+      <button onclick="total()" class="equal">=</button>
+    </div>
+  </div>
+
+ 
+  
+    </div>
+    
+ 
+  <script src="main.js">main.js</script>
+</body>
+</html>
